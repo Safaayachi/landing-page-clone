@@ -14,10 +14,16 @@ module.exports = {
         gray:'#a2a2a2',
         white:'#ffffff',
         paleGray:'#f6f6f6',
-        regularBlack:'#22262a',
+        regularBlack:'#404349',
         lightBlue:'#4984d6',
         lightGray:'#efefeF',
-      }
+        darkGray:'4a4e69',
+      },
+      variants:{
+        extend:{
+          display:['group-focus']
+        },
+      },
     },
   },
   plugins: [],
